@@ -1,0 +1,21 @@
+/* Styles for the footer section */
+footer {
+  margin: 30px 0 0 0; /* Top, right, bottom, left margin */
+  background: #010041; /* Background color */
+  color: #fff; /* Text color */
+  
+}
+
+/* Styles for the body element */
+body {
+  margin: 0%; /* Remove margin from all sides (top, right, bottom, left) */
+}
+
+/* Styles for a container element */
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+/* Styles for the header element */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  background: #00014b;
+}
+
+/* Styles for the header title */
+.header_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

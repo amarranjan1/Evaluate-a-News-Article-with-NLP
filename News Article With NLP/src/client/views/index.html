@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>News Article With NLP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="header_title">
+        <div class="title"><strong>News Article With NLP</strong></div>
+    </div>
+</header>
+<main>
+   
+        <div id="container_holder">
+            <section id="details">
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="url" type="text" name="input" value="" placeholder="Paste URL here...">
+                    <button type="submit"
+                            onclick="return Client.handleSubmit(event)"
+                            onsubmit="return Client.handleSubmit(event)">Generate Sentiment
+                    </button>
+                </form>
+            </section>
+            <section class="result_container">
+                <div><strong>Form Results:</strong></div>
+                <div id="results"></div>
+                <div id="div_result">
+                    <div id="polarity"></div>
+                    <div id="agreement"></div>
+                    <div id="subjectivity"></div>
+                    <div id="confidence"></div>
+                    <div id="irony"></div>
+                    <div id="text"></div>
+                </div>
+            </section>
+        </div>
+    
+</main>
+<footer class="footer_container">
+    <p>&copy; 2023 Udacity. All rights reserved.</p>
+        
+</footer>
+<script>
+     // Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+</script>
+</body>
+</html>

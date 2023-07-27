@@ -1,0 +1,114 @@
+/* General styles for the body */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #c5c5c5;
+}
+
+/* Styles for the main content */
+main {
+  flex: 2;
+  background: #c5c5c5;
+}
+
+/* Styles for buttons */
+button {
+  margin-top: 10px;
+  background-image: linear-gradient(to right, #000428 0%, #004e92 51%, #000428 100%);
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Hover styles for buttons */
+button:hover {
+  cursor: pointer;
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Reset font-family and vertical alignment for HTML elements */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  vertical-align: baseline;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Styles for a title element */
+.title {
+  color: #fff;
+  font-size: 26px;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  margin: 30px 0 30px 0;
+}
+
+/* Styles for a result container */
+.result_container {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  border-radius: 5px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  min-height: 200px;
+  max-width: 445px;
+  color: #fff;
+}
+
+/* Styles for a grid container */
+#container_holder {
+  display: grid;
+  grid-auto-rows: minmax(150px, auto);
+  justify-content: center;
+  grid-gap: 1em;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styles for a details element */
+#details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 445px;
+  max-height: 460px;
+  padding: 40px;
+}
+
+/* Styles for a div result element */
+#div_result {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Styles for different text elements */
+#results, #polarity, #agreement, #subjectivity, #confidence, #irony {
+  margin: 4px 0 4px 0;
+}
+
+/* Styles for text */
+#text {
+  background-color: #000000c5;
+  margin-top: 25px;
+  padding: 10px;
+}
