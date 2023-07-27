@@ -1,4 +1,5 @@
 Evaluate a News Article with Natural Language Processing
+<img width="847" alt="Screenshot_2023-07-26_at_4 39 50_PM" src="https://github.com/amarranjan1/Evaluate-a-News-Article-with-NLP/assets/35811614/eb792b40-bd38-496a-a608-7fe9a2bfbfff">
 
 This project is designed to evaluate a news article using Natural Language Processing (NLP) techniques. It aims to provide insights into the sentiment and subjectivity of the given article, helping users understand the overall tone and credibility of the information.
 
